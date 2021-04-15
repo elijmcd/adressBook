@@ -249,13 +249,14 @@ code {
 #resultsBody>tr {
     object-fit: scale-down;
     border: darkgoldenrod 2px solid;
-    background: #2E004F;
+    background: #f0f3bd;
     border-radius: 3px;
 }
 
 #resultsBody>tr>td {
-    object-fit: scale-down;
-    border: darkgoldenrod 2px solid;
+    /* object-fit: scale-down; */
+    border: darkgoldenrod 3px solid;
+    border-style: groove;
 }
 
 
@@ -273,16 +274,17 @@ code {
 }
 
 .table {
-    background: indigo;
-    color: darkgoldenrod;
+    /* background: indigo; */
+    color: #1a5e63;
+    font-weight: 600;
 }
 
 .table .thead-dark th {
     margin-top: 50px;
     color: darkgoldenrod;
     background-color: indigo;
-    border: 1px solid;
-    border-radius: 3px;
+    border: 3px solid darkgoldenrod;
+
 }
 
 .bottomRow {
